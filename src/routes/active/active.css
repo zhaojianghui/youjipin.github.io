@@ -1,0 +1,121 @@
+*{
+    margin:0;
+    padding:0;
+}
+body,html{
+    width:100%;
+    height:100%;
+}
+.y-active-page{
+    width:100%;
+    height:100%;
+    display:flex;
+}
+.y-active-page .y-containt{
+    flex:1;
+    overflow: hidden;
+}
+.y-containt .am-list-header{
+    padding:0;
+}
+.y-containt .y-section{
+    width:100%!important;
+    padding:0;
+    margin:0;
+}
+.y-containt .y-section img{
+    width:100%;
+    height:480px;
+    display: block;
+    vertical-align: top;
+    margin-top:112px;
+}
+.y-section .y-activity{
+    padding:0 16px;
+    background: #fff;
+}
+.y-activity .y-t{
+    padding:32px 0;
+    font-size:28px;
+    margin:0 10px;
+}
+.y-activity .y-con{
+    font-size:28px;
+    color:#4f494b;
+    line-height: 40px;
+    padding:12px 0 24px;
+    overflow: hidden;
+}
+.y-goods-lists{
+    width:100%;
+}
+.y-goods-lists .y-lists{
+    width:100%;
+    overflow: hidden;
+    list-style: none;
+    float: left;
+    background: rgba(238,238,238,1);
+}
+.y-lists .y-iem{
+    width:50%;
+    overflow: hidden;
+    float: left;
+    position:relative;
+    margin-top:2%;
+    border-radius: 10px;
+    font-size:26px;
+    box-sizing: border-box;
+    padding-left:10px;
+}
+.y-lists .y-iem .y-track{
+    display:block;
+    text-decoration: none;
+    color:#4f494b;
+}
+.y-iem .y-track .y-lazyload{
+    transform-origin: 0px 0px 0px;
+    opacity:1;
+    transform: scale(1,1);
+    width:100%;
+    border-radius:10px 10px;
+    vertical-align: top;
+}
+.y-lists .y-goods-info{
+    background:#fff;
+}
+.y-goods-info .y-selling{
+    padding:10px 16px 0;
+    height:60px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color: #000000;
+    text-align: left;
+    font-size:26px;
+    font-weight: normal;
+
+}
+.y-goods-info .y-name{
+    height:72px;
+    padding:0 16px;
+    display:-webkit-box;
+    font-size: 26px;
+    margin:16px 0;
+    color: #000000;
+    text-align: left;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    -webkit-box-orient:vertical;
+    -webkit-line-clamp:2;
+}
+.y-goods-info .y-price{
+    padding:0 16px 16px;
+    color:#e74c3c;
+    font-size:26px;
+}
+.y-goods-info .y-price .y-market{
+    font-size:24px;
+    color:#BEBDBB;
+    margin-left: 20px;
+    text-decoration: line-through;
+}

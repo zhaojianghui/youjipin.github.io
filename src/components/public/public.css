@@ -1,0 +1,184 @@
+li {
+    list-style: none;
+}
+
+body {
+    font-family: "微软雅黑";
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img {
+    margin: 0;
+    padding: 0;
+}
+
+ul, ol, li {
+    list-style: none;
+    font-family: "微软雅黑";
+}
+
+img {
+    display: block;
+    border: 0;
+}
+
+a, u {
+    text-decoration: none;
+}
+
+i, em {
+    font-style: normal;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 100;
+    font-size: 16px;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+.clearfix:after {
+    content: " ";
+    clear: both;
+    display: block;
+    height: 0;
+    overflow: hidden;
+    visibility: hidden;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+.z-header{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 112px;
+    background:#31313C ;
+    display: flex;
+    z-index: 10000000;
+}
+.z-left-logn{
+    width: 50%;
+
+    padding-left:10% ;
+    color: #fff;
+}
+.z-header-a{
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+.z-left-logn img{
+    width: 130px;
+    height: 40px;
+}
+.z-header-item{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.z-header-item img{
+    width: 60px;
+    height: 60px;
+}
+.z-filter{
+    display: none;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    top: 112px;
+    bottom: 0;
+    right: 0;
+    background: rgba(0,0,0,0.6);
+    z-index: 10000;
+}
+.z-filter-box{
+    width: 100%;
+    height: 552px;
+    overflow-y: auto;
+    position: fixed;
+    top: 112px;
+    left: 0;
+    background: #fff;
+
+}
+.z-filter-header{
+    display: flex;
+    width: 100%;
+    height: 96px;
+    border-bottom: 1px solid #ccc;
+    align-items: center;
+    font-size: 28px;
+}
+.z-filter-header div{
+    border-radius: 20px;
+    background: #ededed;
+    width: 80%;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    margin: 0 20px;
+}
+.z-filter-header div p{
+    background: url("../../image/fdj.png")no-repeat;
+    width: 24px;
+    height: 24px;
+    background-size:100% 100%;
+    margin:0 20px ;
+}
+.z-filter-header div input{
+    width: 70%;
+    border: none;
+    outline: none;
+    background: #ededed;
+    border-radius: 20px;
+    font-size: 28px;
+}
+.z-filter-body{
+    position: relative;
+    width: 100%;
+    border-bottom:1px solid #ccc;
+    font-size: 24px;
+    line-height: 76px;
+    display: flex;
+    flex-direction: column;
+
+}
+.z-filter-body span{
+    margin: 0 20px;
+}
+.z-filter-body span:nth-of-type(2){
+    display: block;
+    width:44px ;
+    height: 44px;
+    background: url("../../image/youj.png")no-repeat;
+    background-size:100% 100% ;
+    -webkit-transform: rotate(90deg);
+}
+.z-filter-body-lie{
+    display: none;
+    width: 100%;
+    background: #fff;
+    z-index: 111111111111;
+
+}
+.z-filter-body-lie p{
+    padding: 0 0 0 80px;
+    border-bottom:1px solid #ccc;
+    color: #4F494B;
+}
+.z-filter-body-zhu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom:1px solid #ccc;
+}

@@ -1,0 +1,79 @@
+.g-order-info {
+    padding-top: 100px;
+}
+.g-order-info li{
+    text-align: center;
+    line-height: 60px;
+}
+.g-order-info .g-order-did div{
+    width:144px;
+    height:144px;
+    margin:0 auto;
+    background: url(imgs/g1.png);
+    background-size: 100% ;
+}
+.g-order-sc {
+    margin-top:40px;
+    font-size: 30px;
+    color:#4F494B;
+}
+.g-order-ts{
+    font-size:24px;
+    color:#828282;
+}
+.g-order-pay {
+    font-size:24px;
+    color:#000;
+}
+.g-order-zfb {
+    margin:20px 0;
+
+}
+.g-order-zfb div{
+    margin:0 auto;
+    width:120px;
+    height:120px;
+    border-radius: 50%;
+    background: #fff url(imgs/zfb.png) no-repeat center;
+}
+.g-order-zfbpay {
+    overflow: hidden;
+    font-size:28px;
+    color:#E74C3C;
+    margin:0 auto;
+    padding-left: 35vw;
+}
+.g-order-zfbpay span{
+    float:left;
+    width:38px;
+    height:38px;
+    border:1px solid #ccc;
+    border-radius: 6px;
+    margin:10px 20px 0 0 ;
+    background: url(imgs/b.png) no-repeat;
+    background-size: 100%;
+}
+.g-order-zfbpay p{
+    float: left;
+}
+.g-order-btn{
+    margin-top:60px;
+}
+.g-order-btn div{
+    margin:0 auto;
+    width: 512px;
+    height:88px;
+    background-color:#B93A2C ;
+    border-radius: 3px;
+    text-align: center;
+    line-height: 88px;
+    font-size: 32px;
+    color:#fff;
+}
+.z-header ~ .content {
+    padding-top:112px;
+}
+.footer ~ .content {
+    padding-bottom:120px;
+
+}

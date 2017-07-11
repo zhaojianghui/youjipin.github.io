@@ -1,0 +1,121 @@
+.y-cheap-page{
+    width:100%;
+    height:100%;
+    background: #fff;
+}
+.y-cheap-page .y-box{
+    width:100%;
+    position: fixed;
+    top:112px;
+    z-index: 99;
+    font-size: 28px;
+    background: #fff;
+}
+.y-box .y-exchange-input{
+    width:96%;
+    border:1px solid #ccc;
+    margin:40px 2.5% 20px;
+    padding:0 2.5%;
+    color:#4f494b;
+    height:88px;
+    line-height: 88px;
+    border-radius: 20px;
+}
+.y-box .y-exchange-btn{
+    position: absolute;
+    right:10px;
+    top:40px;
+    line-height: 88px;
+    padding:0 5%;
+    border-left:1px solid #ccc;
+    font-size:28px;
+}
+.y-con .y-ul{
+    padding-top:280px;
+    padding-bottom: 108px;
+    position: fixed;
+    left:0;
+    top:0;
+    bottom:0;
+    right:0;
+    overflow: auto;
+}
+.y-ul .y-rank{
+    margin: 16px 4% 0;
+    /*max-width: 380px;*/
+    position: relative;
+    overflow: hidden;
+}
+.y-ul .y-rank .y-l{
+    display: none;
+    width: 10%;
+    float: left;
+}
+.y-ul .y-rank .y-r{
+    left:0;
+    position: relative;
+    width:100%;
+    float: left;
+}
+.y-rank .y-r img{
+    width:100%;
+}
+.y-rank .y-r .y-price{
+    position: absolute;
+    left:8%;
+    top:15%;
+    color:#fff;
+    width:30%;
+}
+.y-rank .y-r .y-price em{
+    font-size: 48px;
+    vertical-align: top;
+    font-style: normal;
+}
+.y-rank .y-r .y-price span{
+    margin-left:12px;
+    font-size:82px;
+    font-family: Arial;
+    vertical-align: top;
+}
+.y-rank .y-r .y-name{
+    position:absolute;
+    left:40%;
+    top:15%;
+    text-align: center;
+    color: #fff;
+    width:50%;
+    font-size: 36px;
+}
+.y-rank .y-r .y-name em{
+    display:block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-weight: normal;
+    font-style: normal;
+}
+.y-rank .y-r .y-name span{
+    display:block;
+    margin-top:2%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.y-rank .y-r .y-coupons-date{
+    position:absolute;
+    left:8%;
+    bottom:34px;
+    width:88%;
+    color:#580F12;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size:24px;
+}
+.y-rank .y-r .y-coupons-date .y-range{
+    float:right;
+    width:20%;
+    white-space: nowrap;
+    color:#580F12;
+}

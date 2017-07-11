@@ -1,0 +1,202 @@
+body,html{
+    width: 100%;
+    height: 100%;
+}
+.z-content{
+    width: 100%;
+    padding-top: 112px;
+
+}
+.my-carousel {
+    background: #fff;
+}
+.my-carousel a {
+    display: inline-block;
+    width: 100%;
+    margin: 0; padding: 0;
+}
+.my-carousel a img {
+    width: 100%;
+    vertical-align: top;
+}
+.my-carousel .v-item {
+    height: 0.72rem;
+    line-height: 0.72rem;
+    padding-left: 0.2rem;
+}
+.sub-title {
+    color: #888;
+    font-size: .28rem;
+    padding: 30px 0 18px 0;
+}
+.am-carousel-wrap{
+    padding-bottom: 24px;
+}
+.am-carousel-wrap-dot-active span{
+    background:rgb(231,76,60) ;
+}
+.z-content-lie{
+    width:100%;
+    display: flex;
+    height: 148px;
+}
+.z-content-lie li{
+    width: 33%;
+}
+.z-content-lie li img{
+    width: 100%;
+    height: 148px;
+}
+.z-img-item{
+    width: 100%;
+}
+.z-seckill{
+    width: 100%;
+    height: 284px;
+    display: flex;
+    background: #fff;
+}
+.z-seckill-leftImg{
+    width:224px ;
+    height: 224px;
+    margin-top: 20px;
+}
+.z-seckill-middle{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 1px dashed red;
+    color: red;
+    text-align: center;
+    line-height: 100px;
+    font-size: 28px;
+    align-self: flex-end;
+    margin-bottom: 60px;
+
+}
+.z-seckill-right{
+    width: 256px;
+    height: 170px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.z-seckill-right img{
+    width: 100%;
+    height: 88px;
+}
+.z-seckill-time{
+    display: flex;
+    width: 100%;
+    height: 64px;
+    justify-content: space-between;
+}
+.z-seckill-time i{
+    margin-top: 30px;
+}
+.z-seckill-time span{
+    width: 60px;
+    height: 60px;
+    border-radius: 5px;
+    background: #ccc;
+    margin-top: 30px;
+    text-align: center;
+    line-height: 60px;
+
+}
+.z-dataone-img{
+    width: 100%;
+    height: 340px;
+}
+.z-dataone{
+    width: 100%;
+    display: flex;
+    overflow-x: auto;
+    font-size: 24px;
+    background: #fff;
+}
+.z-dataone img{
+    width: 246px;
+    height: 246px;
+}
+.z-dataone li{
+    width:246px ;
+    margin: 0 10px;
+}
+.z-dataone li p{
+    margin: 5px 0;
+}
+.z-dataone li p:nth-of-type(1){
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    width: 100%;
+}
+.z-dataone li p:nth-of-type(2) span:nth-of-type(1){
+    color: red;
+    margin-right:5px ;
+}
+.z-dataone li p:nth-of-type(2) span:nth-of-type(2){
+    color: #4F494B;
+    text-decoration: line-through;
+}
+.z-listData{
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    font-size: 30px;
+}
+.z-listData-wrap{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.z-listData-wrap li{
+    width: 44%;
+    background: #fff;
+    font-size: 26px;
+    margin: 3%;
+}
+.z-listData-wrap li img{
+    width: 100%;
+}
+.z-listData-wrap .z-li-shop{
+    display: block;
+    width: 44%;
+    background: #fff;
+    font-size: 26px;
+    margin: 3%;
+    color: #fff;
+}
+.z-listData-wrap-item{
+    display: flex;
+    width: 282px;
+    height: 394px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color:#4F494B ;
+}
+.z-listData-wrap-item p{
+    line-height: 60px;
+}
+.z-listData-wrap-item p:nth-of-type(2){
+    border-top: 1px solid #828282;
+}
+.z-listData-wrap-item p:nth-of-type(3){
+    width: 34px;
+    height: 34px;
+    background: url("../../image/jiantou.png")no-repeat;
+    background-size: 100% 100%;
+}
+.z-third span:nth-of-type(1){
+    color: red;
+    margin-right: 15px;
+}
+.z-third span:nth-of-type(2){
+    color: #BEBDBB;
+    text-decoration: line-through;
+}

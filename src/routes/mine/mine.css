@@ -1,0 +1,115 @@
+*{
+    margin:0;
+    padding:0;
+}
+.y-mypage {
+    width: 100%;
+    overflow: hidden;
+    display: block;
+}
+.y-main{
+    margin-top:112px;
+}
+.y-mypage .y-welcome{
+    width:100%;
+    height:300px;
+    padding-left:40px;
+    padding-top:80px;
+    -webkit-box-sizing: border-box;
+    background: url(../../image/center.jpg);
+    -webkit-background-size: 100%;
+    color:#fff;
+}
+.y-mypage .y-welcome .y-bg-img{
+    width:140px;
+    height:140px;
+    border-radius: 50%;
+    background-size: 100%;
+    background: url("../../image/bj-img.jpg") no-repeat center;
+    overflow: hidden;
+    display: inline-block;
+    float: left;
+}
+.y-welcome .y-in-fo{
+    padding-left:60px;
+    line-height: 40px;
+    padding-top: 30px;
+    color:#4f494b;
+    float: left;
+    font-size:24px;
+    display: inline-block;
+}
+.y-personal{
+    margin-top:20px;
+}
+.y-personal .y-yj{
+    list-style: none;
+    background: #fff;
+    height:96px;
+    overflow: hidden;
+    line-height: 96px;
+    position: relative;
+    padding-left:40px;
+    -webkit-box-sizing: border-box;
+    border-bottom: 1px solid #e6e6e6;
+}
+.y-personal .y-yj a{
+    font-size:26px;
+}
+.y-personal .y-yj a:after{
+    content: '';
+    position: absolute;
+    top:24px;
+    right:32px;
+    width:48px;
+    height:48px;
+    background: url("../../image/icon6.jpg") no-repeat center;
+    background-size: 30%;
+}
+.y-personal .y-yj  span{
+    float: right;
+    margin-right:80px;
+}
+.y-personal .y-yj .y-bar{
+    color:lightcoral;
+}
+.y-personal .y-yj em{
+    color:lightcoral;
+    font-style: normal;
+}
+.y-personal .y-mt10{
+    height:96px;
+    border-bottom: none;
+    overflow: hidden;
+    position: relative;
+    line-height: 96px;
+    margin-top:20px;
+}
+.y-personal .y-mt10 .y-sign-out{
+    color:#e74c3c;
+    text-align: center;
+    display: block;
+    font-size:26px;
+}
+.y-mt10 .y-sign-out:after{
+    content:"";
+    overflow: hidden;
+    background: #fff;
+    visibility: hidden;
+    display: none;
+}
+.y-f-info{
+    line-height: 40px;
+    color:#828282;
+    padding-top:32px;
+    text-align: center;
+    font-size:26px;
+}
+.y-f-info .y-color-red{
+    width:100%;
+    color:#e74c3c;
+    font-size:26px;
+}
+.y-color-red a{
+    color:#e74c3c;
+}

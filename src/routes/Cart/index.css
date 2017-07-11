@@ -1,0 +1,213 @@
+html,body{
+    background-color:#eee ;
+    font-family: "微软雅黑";
+}
+.l-con-title {
+    width:100%;
+    height:50px;
+    background-color:#FFB842 ;
+    color:#fff;
+    font-size:24px;
+    text-align: center;
+    line-height: 50px;
+}
+.l-c-item {
+    margin-bottom: 20px;
+}
+.l-i-tit {
+    height:66px;
+    font-size: 24px;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    background: #fff;
+    padding:0 20px;
+}
+.l-t-bg{
+    float: left;
+    margin-top: 12px;
+    margin-right: 20px;
+    height:40px;
+}
+.l-t-bg i{
+    display: inline-block;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 34px 0 16px;
+    background: url(imgs/tb1.png) no-repeat;
+    background-size: 100% 100% ;
+    font-style: normal;
+    color: #B9392C;
+}
+.l-t-bg:before{
+    content: "";
+    display: inline-block;
+    vertical-align: top;
+    width: 20px;
+    height: 40px;
+    background: #fff url(imgs/tb2.png) no-repeat top;
+    background-size: 100% 100% ;
+}
+.l-t-tips {
+    float: left;
+    height:65px;
+    line-height: 65px;
+    color: #BEBDBB;
+}
+.l-i-t-hid {
+    display: none;
+}
+.l-c-item .l-goods-info {
+    overflow: hidden;
+    padding:30px;
+    position: relative;
+    background: #fff;
+    border-bottom: 1px solid #ddd;
+}
+.l-c-item ul li:last-child{
+    border:0;
+}
+.l-checked {
+    float: left;
+    width:56px;
+    padding-top:70px;
+}
+.am-checkbox-inner {
+    border:1px solid #999;
+    border-radius: 6px;
+}
+
+
+
+.l-img img{
+    float: left;
+    width: 196px;
+    height:196px;
+    border:none;
+}
+.l-info {
+    float: left;
+    font-size:24px;
+    margin-left:30px;
+    margin-top:10px;
+    width:280px;
+}
+.l-name {
+    line-height: 32px;
+    color:#000;
+}
+.l-size {
+    color:#ccc;
+    margin: 20px 0;
+}
+.l-goods-price .l-g-money {
+    color:#E74C3C;
+    width: 120px;
+    float: left;
+    display: block;
+    height:44px;
+    line-height: 40px;
+    margin-top:10px;
+
+}
+.p-contro {
+    float: left;
+}
+.am-stepper-input {
+    width: 60px;
+    height:46px;
+    background: #ddd;
+}
+.am-stepper-handler {
+    line-height: 40px;
+}
+.am-stepper.showNumber{
+    float: left;
+    width: 150px;
+}
+.am-stepper-input-wrap {
+    line-height:44px;
+}
+.am-icon.am-icon-plus {
+    margin-top:0px ;
+}
+.am-stepper-handler-wrap span {
+    float: left;
+    width: 44px;
+    height:44px;
+}
+.l-delete {
+    position:absolute;
+    top:0;
+    right:0;
+    width:56px;
+    height:56px;
+    background: url(imgs/b2.png);
+    background-size: 100%;
+}
+
+
+.footer{
+    z-index:10;
+    position: fixed;
+    left:0;
+    bottom:0;
+    width:100%;
+    height:120px;
+    background-color:#fff ;
+}
+.l-footer-left {
+    float: left;
+    width: 65vw;
+    height:120px;
+    padding: 20px 20px 20px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.l-all-change {
+    font-size: 28px;
+    height:36px;
+    line-height: 36px;
+    color:#8a8989;
+}
+
+
+
+
+.l-total{
+    float: right;
+}
+.l-total-money {
+    font-size: 28px;
+    color:#000;
+}
+.l-total-money span{
+    color: #E74C3C;
+}
+.l-no-yf {
+    font-size: 24px;
+    color:#8a8989;
+}
+.l-pay {
+    width: 35vw;
+    height:120px;
+    float: right;
+}
+.l-pay a{
+    float: right;
+    width: 100%;
+    line-height: 120px;
+    text-align: center;
+    font-size: 32px;
+    color:#fff;
+    background: #E74C3C;
+}
+
+.z-header ~ .content {
+    padding-top:112px;
+}
+.footer ~ .content {
+    padding-bottom:120px;
+
+}
+

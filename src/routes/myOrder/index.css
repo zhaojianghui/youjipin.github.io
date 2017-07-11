@@ -1,0 +1,136 @@
+.y-order-page{
+    width:100%;
+    height:100%
+}
+.y-order{
+    position: relative;
+}
+.order{
+    background: #f2f2f2;
+    height:88px;
+    line-height: 88px;
+}
+.y-order-page .swiper-container{
+    margin:0 auto;
+    position:absolute;
+    left:0;
+    overflow:hidden;
+    text-align: center;
+    z-index:9;
+    top:112px;
+}
+.swiper-container .swiper-wrapper {
+    transition-timing-function: ease-out;
+    margin: 0 auto;
+}
+.swiper-wrapper .swiper-slide{
+    width:110px;
+    margin-right:16px;
+    height:100%;
+    float:left;
+    font-size:24px;
+}
+.swiper-wrapper .hou{
+    width:120px;
+}
+.swiper-wrapper .swiper-slide.act{
+    border-bottom: 2px solid #ff0000;
+    color:#e74c3c;
+}
+.order-list .item{
+    background: #fff;
+    margin-top:114px;
+    margin-bottom: 10px;
+    position: relative;
+}
+.order-list .item .t{
+    height: 72px;
+    line-height: 72px;
+    padding: 0 10px;
+    font-size: 24px;
+    color: #828282;
+}
+.order-list .item .t span{
+    float: right;
+    color:#e74c3c;
+    line-height: 72px;
+    font-size:24px;
+}
+.order-list .item a{
+    text-decoration: none;
+    color:#4f494b;
+    display:block;
+}
+.order-list .item .g-list{
+    padding:60px 100px 30px 30px;
+    border-top:1px solid #e6e6e6;
+    position: relative;
+    overflow: hidden;
+    color:#4f494b;
+}
+.order-list .item .g-list:last-child {
+    border-bottom: 1px solid #e6e6e6;
+}
+.order-list .item .g-list-t span {
+    background: #FFE075;
+    color: #5D3E1C;
+    position: absolute;
+    left: 0;
+    top: 0;
+    line-height: 36px;
+    font-size:24px;
+    padding: 0 15px 0 10px;
+}
+.order-list .item .g-list-t span:after {
+    content: "";
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 10px;
+    height: 10px;
+    background: #fff url("./imgs/down.jpg");
+    background-size: 100%;
+}
+.order-list .item .g-list ul li {
+    float: left;
+    width: 25%;
+    box-sizing: border-box;
+    padding-right: 10px;
+    margin-right:20px;
+}
+.order-list .item .g-list ul li img{
+    width:100%;
+}
+.total{
+    padding:20px;
+}
+.total .l{
+    float: left;
+    margin-top:8px;
+}
+.total .r{
+    float: right;
+}
+.order-list .item .l .pro {
+    font-size: 28px;
+    color: #4F494B;
+}
+.order-list .item .l .pro span {
+    color: #E74C3C;
+    font-size: 28px;
+}
+.order-list .item .total .num {
+    color: #BEBDBB;
+    font-size: 24px;
+}
+.loading{
+    text-align: center;
+    line-height: 80px;
+}
+.z-header ~ .content {
+    padding-top:112px;
+}
+.footer ~ .content {
+    padding-bottom:120px;
+
+}
